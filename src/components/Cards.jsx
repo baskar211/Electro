@@ -3,8 +3,8 @@ import React from 'react'
 export default function Cards() {
   return (
     <div>
-      <ProductCardPage/>
-      <Promotional/>
+      <ProductCardPage />
+      <Promotional />
     </div>
   )
 }
@@ -13,7 +13,7 @@ export default function Cards() {
 function ProductCardPage() {
   return (
     <div className=" bg-gray-50 px-4 py-8 my-10">
-      
+
       {/* Header */}
       <div className="max-w-7xl mx-auto mb-6">
         <h1 className="text-3xl font-bold text-gray-800">Products</h1>
@@ -127,10 +127,10 @@ function Promotional() {
 
       {/* Full Width Banner */}
       <section className="w-full h-32 bg-[url('https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/banners/image-2.png')] bg-cover bg-center bg-no-repeat">
-        
+
         {/* Content */}
         <div className="h-full max-w-7xl mx-auto px-4 flex items-center justify-between text-white">
-          
+
           <div>
             <h1 className="text-lg md:text-xl font-semibold">
               Trending Products

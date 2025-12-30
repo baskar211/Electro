@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Layout />
-      <Ball />
+      <Homepage />
       <Prodcut />
       <Example />
 
@@ -88,7 +88,7 @@ function Example() {
   );
 };
 
-function Ball() {
+function Homepage() {
   return (
     <>
       <section className="lg:mt-[4rem]">

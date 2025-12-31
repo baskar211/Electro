@@ -11,7 +11,7 @@ export default function Banner() {
 
 //new trending banner
 
-export const CarouselBanner = () => {
+export function CarouselBanner() {
   const [stopScroll, setStopScroll] = React.useState(false);
   const cardData = [
     {
@@ -68,7 +68,7 @@ export const CarouselBanner = () => {
       </div>
     </>
   );
-};
+}
 
 export function Promotional() {
   return (

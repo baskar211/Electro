@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Banner, Navbar } from './layout'
+import { Banner, Navbar } from '../../pages/Layout/layout'
 
 
 export default function Loginpage() {

@@ -1,4 +1,4 @@
-import { Banner, Navbar } from "./layout";
+import { Banner, Navbar } from "../Layout/layout";
 
 export default function Contact() {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Navbar } from "./layout";
+import { Navbar } from "../../pages/Layout/layout";
 
 
 export default function Signup() {

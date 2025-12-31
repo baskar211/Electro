@@ -1,4 +1,4 @@
-import { Banner, Navbar } from "./layout";
+import { Banner, Navbar } from "../Layout/layout";
 import React from 'react'
 export default function About() {
     return (

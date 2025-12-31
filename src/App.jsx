@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/page";
-import Layout from "./pages/layout";
-import About from "./pages/about";
-import Contact from "./pages/contact";
-import Error from "./pages/nopage";
-import Cartpage from "./components/Cart/cart";
-import Loginpage from "./pages/login";
-import Signup from "./pages/registar";
+import Layout from "./pages/Layout/layout";
+import Home from "./pages/Home/page";
+import About from './pages/About/about'
+import Contact from './pages/Contact/contact'
+import Cartpage from './components/Cart/cart'
+import Loginpage from './components/Auth/login'
+import Signup from './components/Auth/registar'
+import Error from './components/Nopage/nopage'
 
 export default function App() {
   return (

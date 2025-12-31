@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar } from '../../pages/layout'
+import { Navbar } from '../../pages/Layout/layout'
 
 export default function Cartpage() {
     const [showAddress, setShowAddress] = React.useState(false)

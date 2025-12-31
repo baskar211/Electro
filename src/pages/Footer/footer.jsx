@@ -1,19 +1,5 @@
-import Prodcut from "../components/prodcut";
-import Layout, { Navbar } from "./layout";
 
-export default function Home() {
-  return (
-    <div>
-      <Layout />
-      <Homepage />
-      <Prodcut />
-      <Example />
-
-    </div>
-  )
-}
-
-function Example() {
+export default function Footer() {
   return (
     <>
       <style>{`
@@ -65,7 +51,8 @@ function Example() {
             <div className="w-full md:w-[45%] lg:w-[25%] flex flex-col items-center md:items-start text-center md:text-left col-span-2">
               <h3 className='text-sm text-white font-medium'>Subscribe for news</h3>
               <div className="flex items-center border gap-2 border-white/20 h-13 max-w-80 w-full rounded-full overflow-hidden mt-4">
-                <input type="email" placeholder="Enter your email.." className="w-full h-full pl-6 outline-none text-sm bg-transparent text-white placeholder-white/60 placeholder:text-xs" required />
+              
+                <input type="email" placeholder="Enter your email.." className="w-full h-full border-none outline-none text-sm bg-transparent text-white placeholder-white/60 placeholder:text-xs" required />
                 <button type="submit" className="bg-linear-to-b from-[#5623D8] to-[#7B53E2] active:scale-95 transition w-56 h-10 rounded-full text-sm text-white cursor-pointer mr-1.5">Subscribe</button>
               </div>
             </div>
@@ -87,50 +74,3 @@ function Example() {
     </>
   );
 };
-
-function Homepage() {
-  return (
-    <>
-      <section className="lg:mt-[4rem]">
-        <Navbar />
-
-        {/* Banner Section */}
-        <section className="px-3 py-5 bg-neutral-100 lg:py-10">
-          <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
-
-            {/* Text Content */}
-            <div className="order-2 lg:order-1 flex flex-col justify-center items-center text-center">
-              <p className="text-4xl md:text-6xl lg:text-7xl font-bold text-orange-600">
-                25% OFF
-              </p>
-
-              <p className="text-3xl md:text-5xl lg:text-7xl font-bold">
-                SUMMER SALE
-              </p>
-
-              <p className="mt-2 text-sm md:text-lg text-gray-600">
-                For limited time only!
-              </p>
-
-              <button className="text-base md:text-xl bg-black text-white py-2 px-6 mt-8 hover:bg-zinc-800 transition">
-                Shop Now
-              </button>
-            </div>
-
-            {/* Image */}
-            <div className="order-1 lg:order-2">
-              <img
-                className="h-64 w-64 md:h-80 md:w-80 lg:w-[500px] lg:h-[500px] object-cover"
-                src="https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=1887&q=80"
-                alt="Summer Sale"
-              />
-            </div>
-
-          </div>
-        </section>
-      </section>
-    </>
-  );
-}
-
-
